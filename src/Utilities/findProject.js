@@ -2,7 +2,10 @@ import { projects } from "../data/Projects"
 import {hyphenateWords} from './hyphenateWords'
 
 function findProject(string) {
-  projects.filter(project => )
+  const project = projects.find(project => {
+    return hyphenateWords(project.title) === string
+  })
+  return project
 }
 
 export default findProject
