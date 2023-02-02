@@ -1,6 +1,12 @@
+import { projects } from "../../data/Projects"
+
 const ProjectsList = () => {
   return (
-    <h1>List of Projects here</h1>
+    <ul>
+      {projects.map(project =>
+        <li>{project.title}</li>
+        )}
+    </ul>
   )
 }
 
