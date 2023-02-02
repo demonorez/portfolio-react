@@ -1,6 +1,9 @@
 const Resume = () => {
   return (
-    <h1>This is my Resume</h1>
+    <>
+      <h1>Feel free to download my resume below.</h1>
+      <a href="/MyResume.pdf" download>Click here to download my Resume</a>
+    </>
   )
 }
 

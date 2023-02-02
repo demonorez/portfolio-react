@@ -1,6 +1,10 @@
 const Landing = () => {
   return (
-    <h1>Landing Page</h1>
+    <>
+      <img src={'/Mike.jpg'}></img>
+      <h1>Michael Robles</h1>
+      <h2>Software Engineer</h2>
+    </>
   )
 }
 
