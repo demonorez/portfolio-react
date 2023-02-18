@@ -1,9 +1,9 @@
-import { projects } from "../../data/Projects"
 import ProjectPreview from './ProjectPreview'
-const ProjectsList = () => {
+
+const ProjectsList = (props) => {
   return (
     <ul>
-      {projects.map((project) =>
+      {props.projects.map((project) =>
         <ProjectPreview key={project.title} title={project.title} image={project.image} />
         )}
     </ul>

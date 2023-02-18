@@ -1,9 +1,10 @@
 import ProjectsList from "./ProjectsList"
+import { projects } from "../../data/Projects"
 
 const Projects = () => {
   return (
     <>
-      <ProjectsList />
+      <ProjectsList projects={projects}/>
     </>
   )
 }

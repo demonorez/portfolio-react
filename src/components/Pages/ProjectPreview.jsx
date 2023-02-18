@@ -1,8 +1,7 @@
-import hyphenateWords from "../../Utilities/hyphenateWords"
 import { Link } from "react-router-dom"
+import hyphenateWords from "../../Utilities/hyphenateWords"
 
 const ProjectPreview = (props) => {
-  console.log(props);
   return (
     <>
       <div>
@@ -14,7 +13,9 @@ const ProjectPreview = (props) => {
           <h3>
             {props.title} 
           </h3>
+          <Link to={hyphenateWords(props.title)}>
           <button>Learn more</button>
+          </Link>
         </section>
       </div>
     </>

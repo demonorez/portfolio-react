@@ -1,5 +1,6 @@
 import { projects } from "../data/Projects"
-import {hyphenateWords} from './hyphenateWords'
+import hyphenateWords from './hyphenateWords'
+
 
 function findProject(string) {
   const project = projects.find(project => {

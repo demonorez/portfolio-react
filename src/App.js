@@ -6,7 +6,6 @@ import Resume from './components/Pages/Resume'
 import Projects from './components/Pages/Projects'
 import Navbar from './components/NavBar/Navbar'
 import ProjectDetails from './components/Pages/ProjectDetails'
-import logo from './logo.svg'
 import './App.css'
 
 function App() {
