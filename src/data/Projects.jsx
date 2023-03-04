@@ -12,5 +12,12 @@ export const projects = [
     image: 'https://github.com/demonorez/anime-reviews/raw/main/assets/screenshot1.png',
     repositoryLink: <a href="https://github.com/demonorez/anime-reviews">Github Repo</a>,
     deploymentLink: <a href="https://anime-review-masters.fly.dev/">Try it here!</a>
+  },
+  {
+    title: 'Super-Superstitions',
+    description: 'This is a site I made with PostgreSQL and TypeScript React, a spooky blog space for conspiracy and superstitious fans combined.',
+    image: 'https://github.com/demonorez/super-superstitions-front-end/raw/main/public/Screenshot3.png',
+    repositoryLink: <a href='https://github.com/demonorez/super-superstitions-front-end'>Github Repo</a>,
+    deploymentLink: <a href='https://super-superstitions.netlify.app/'>Try it here!</a>
   }
 ]

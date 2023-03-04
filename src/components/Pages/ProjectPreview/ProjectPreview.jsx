@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import hyphenateWords from "../../Utilities/hyphenateWords"
+import hyphenateWords from "../../../Utilities/hyphenateWords"
 
 const ProjectPreview = (props) => {
   return (

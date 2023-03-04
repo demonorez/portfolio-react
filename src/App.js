@@ -1,11 +1,11 @@
 import { Routes, Route } from 'react-router-dom'
-import Landing from './components/Pages/Landing'
-import About from './components/Pages/About'
-import Contact from './components/Pages/Contact'
-import Resume from './components/Pages/Resume'
-import Projects from './components/Pages/Projects'
+import Landing from './components/Pages/Landing/Landing'
+import About from './components/Pages/About/About'
+import Contact from './components/Pages/Contact/Contact'
+import Resume from './components/Pages/Resume/Resume'
+import Projects from './components/Pages/Projects/Projects'
 import Navbar from './components/NavBar/Navbar'
-import ProjectDetails from './components/Pages/ProjectDetails'
+import ProjectDetails from './components/Pages/ProjectDetails/ProjectDetails'
 import './App.css'
 
 function App() {
@@ -24,4 +24,5 @@ function App() {
   )
 }
 
-export default App;
+export default App
+

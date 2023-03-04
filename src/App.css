@@ -1,10 +1,23 @@
-.App {
-  text-align: center;
+body {
+  background-color: #154042;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img, h1, h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  height: 500px;
+}
+
+h1 {
+  font-family: 'Tilt Prism', cursive;
+}
+
+h2 {
+  font-family: 'Tilt Prism', cursive;
 }
 
 @media (prefers-reduced-motion: no-preference) {

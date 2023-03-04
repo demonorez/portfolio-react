@@ -1,4 +1,4 @@
-import findProject from "../../Utilities/findProject"
+import findProject from "../../../Utilities/findProject"
 import { useParams } from "react-router-dom"
 
 const ProjectDetails = () => {
