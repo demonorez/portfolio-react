@@ -3,7 +3,7 @@ const Landing = () => {
     <>
     <body>
       <div class='img'>
-        <img src={'/Mike.jpg'} />
+        <img src={'/Mike.jpg'} alt='Mikes profile'/>
       </div>
       <div>
         <h1 class='h1'>Michael Robles</h1>
