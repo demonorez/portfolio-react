@@ -9,9 +9,11 @@ const ProjectDetails = () => {
     <>
       <h1>{project.title}</h1>
       <p>{project.description}</p>
-      <img src={project.image}/>
-      <button>{project.repositoryLink}</button>
-      <button>{project.deploymentLink}</button>
+      <img class='projectImg' src={project.image}/>
+      <div>
+        <button>{project.repositoryLink}</button>
+        <button>{project.deploymentLink}</button>
+      </div>
     </>
   )
 }

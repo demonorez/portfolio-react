@@ -6,6 +6,7 @@ const ProjectPreview = (props) => {
     <>
       <div>
         <img
+          class='projectImg'
           src={props.image}
           alt={props.title}
         />
