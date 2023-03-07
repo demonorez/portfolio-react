@@ -4,7 +4,7 @@ export const projects = [
     description: 'An Arcane themed connect four game. Custom pieces, voicelines, background, and music, all from Riot Games, League of Legends, and Arcane Netflix show.', 
     image: 'https://github.com/demonorez/Connect-Four/raw/main/Images/Screenshot.png', 
     repositoryLink: <a href="https://github.com/demonorez/Connect-Four">Github Repo</a>, 
-    deploymentLink: <a href="https://chimerical-pie-f73be7.netlify.app/">Try it Here</a>
+    deploymentLink: <a href="https://arcane-connect-four.netlify.app/">Try it Here</a>
   },
   {
     title: 'Anime-Review-King',
