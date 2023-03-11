@@ -9,7 +9,7 @@ const ProjectDetails = () => {
     <>
       <h1>{project.title}</h1>
       <p>{project.description}</p>
-      <img class='projectImg' src={project.image}/>
+      <img class='projectImg' src={project.image} alt='projectImage' />
       <div>
         <button>{project.repositoryLink}</button>
         <button>{project.deploymentLink}</button>
