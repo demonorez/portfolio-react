@@ -18,7 +18,7 @@ body {
 }
 
 .img {
-  height: 400px;
+  height: 500px;
 }
 
 h1 {
@@ -33,7 +33,7 @@ h1 {
 .contactLink {
   display: flex;
   justify-content: center;
-  font-size: 24px;
+  font-size: 48px;
 }
 
 .resume {
