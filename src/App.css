@@ -27,6 +27,7 @@ h1 {
 .contact {
   display: flex;
   justify-content: space-around;
+  font-size: 30px;
 }
 
 .contactLink {
@@ -36,17 +37,30 @@ h1 {
 }
 
 .resume {
-  /* display: flex; */
-  justify-self: center;
+  text-align: center;
   margin-top: 50px;
-  height: 500px;  
-  width: auto;
-  min-width: 40vw;
 }
 
 .projectImg {
-  height: 600px;
-  width: 700px;
+  height: 400px;
+  width: 400px;
+}
+
+.projectsPass {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 20px;
+  justify-content: center;
+}
+
+.projectDetails {
+  font-size: 24px;
+}
+
+.projectImgDetails {
+  height: 500px;
+  width: 600px;
 }
 
 .about-left {

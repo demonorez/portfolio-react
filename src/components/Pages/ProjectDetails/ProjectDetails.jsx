@@ -7,10 +7,10 @@ const ProjectDetails = () => {
 
   return (
     <>
+      <div class='projectDetails'>
       <h1>{project.title}</h1>
+      <img class='projectImgDetails' src={project.image} alt='projectImage' />
       <p>{project.description}</p>
-      <img class='projectImg' src={project.image} alt='projectImage' />
-      <div>
         <button>{project.repositoryLink}</button>
         <button>{project.deploymentLink}</button>
       </div>

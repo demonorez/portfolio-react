@@ -4,13 +4,13 @@ import hyphenateWords from "../../../Utilities/hyphenateWords"
 const ProjectPreview = (props) => {
   return (
     <>
-      <div>
+      <div class='projectsPass'>
+        <section>
         <img
           class='projectImg'
           src={props.image}
           alt={props.title}
         />
-        <section>
           <h3>
             {props.title} 
           </h3>
